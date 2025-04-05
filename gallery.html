@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #ffdde1, #fceabb);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ff4081;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #ff3399;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeri Kenangan Kita</h1>
+    <div class="gallery">
+        <img src="file-V6fgSqztQRbrvd4bcZB8Ve" alt="Foto 1">
+        <img src="file-8NHPYwfzFzdFkpcF78Nqtt" alt="Foto 2">
+        <img src="file-EQjH7JdvbW7wQy2RM9bNn4" alt="Foto 3">
+    </div>
+    <a href="index.html">Kembali ke Beranda</a>
+</body>
+</html>
